@@ -7,7 +7,7 @@ public class ApplePrice {
 public static void main(String[ ] args) {
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter the price of apple per dozen :");
-       double price = sc.nextInt();
+       double price = sc.nextDouble();
        
        System.out.println("The price of 10 apples is "+(price/12.0)*10);
 }
